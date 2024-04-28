@@ -20,13 +20,13 @@ const (
 var (
 	// Author is the style for the author text in the bottom-left corner of the
 	// presentation.
-	Author = lipgloss.NewStyle().Foreground(salmon).Align(lipgloss.Left).MarginLeft(2)
+	Author = lipgloss.NewStyle().Faint(true).Align(lipgloss.Left).MarginLeft(2)
 	// Date is the style for the date text in the bottom-left corner of the
 	// presentation.
 	Date = lipgloss.NewStyle().Faint(true).Align(lipgloss.Left).Margin(0, 1)
 	// Page is the style for the pagination progress information text in the
 	// bottom-right corner of the presentation.
-	Page = lipgloss.NewStyle().Foreground(salmon).Align(lipgloss.Right).MarginRight(3)
+	Page = lipgloss.NewStyle().Faint(true).Align(lipgloss.Right).MarginRight(3)
 	// Slide is the style for the slide.
 	Slide = lipgloss.NewStyle().Padding(1)
 	// Status is the style for the status bar at the bottom of the
